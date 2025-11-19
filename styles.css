@@ -151,8 +151,47 @@ body {
     font-style: italic;
 }
 
-.quote-section cite{
+.quote-section cite {
     align-self: flex-end;
     font-weight: 900;
     font-size: 18px;
+}
+
+.call-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px;
+}
+
+.card-call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 30px 100px;
+}
+
+.card-call-text{
+    display: flex;
+    padding-right: 40px;
+    flex-direction: column;
+    padding-right: 200px;
+    flex: 3;
+}
+
+.call-section button {
+    padding: 4px 30px;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: transparent;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F2937;
+    color: #e5e7eb;
 }
