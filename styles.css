@@ -100,3 +100,44 @@ body{
     font-size: 18px;
     margin-top: .5em;
 }
+
+.information-section{
+    padding: 22px 50px 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-section h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.informations-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.card-information{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+.card-information p {
+    margin-top: 1em;
+}
+
+.img-information{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+}
